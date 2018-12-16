@@ -1,2 +1,5 @@
-^Backspace::
-send {Delete}
+^Backspace::send {Delete}
+
+#!Right::send ^{Tab}
+#!Left::send ^+{Tab}
+
